@@ -1,14 +1,16 @@
 body{
  display: flex;
- flex-direction: column; /* AI har endret verdien litt */
- align-items: center; /* AI har endret verdien litt */
- justify-content: flex-start; /* AI har endret verdien litt */
- min-height: 100vh; /* AI har endret verdien litt */
+ flex-direction: column;
+ align-items: center; 
+ justify-content: flex-start; 
+ min-height: 1000px; 
+ min-width: 1200px;
  margin:0;
+ border: 4px solid #000000;
 }
 header{
-    display: flex; /* AI har endret verdien litt */
-    align-items: center; /* AI har endret verdien litt */
+    display: flex; 
+    align-items: center; 
     justify-content: center;
     background-color: #acacac;
     max-height: 200px;
@@ -22,22 +24,29 @@ header{
     
 }
 nav{
-    display: flex;
- margin: 0px;;
+  display: flex;
+  margin: 0px;;
   background-color: #023dff;
   border: 4px solid #000000;
-  justify-content: center; /* AI har endret verdien litt */
+  justify-content: center; 
   gap: 48px; /* AI har endret verdien litt */
-  width: 100%; /* AI har endret verdien litt */
+  width: 100%; 
   box-sizing: border-box; /* AI har endret verdien litt */
   max-height: 200px;
-  position: fixed; /* AI har endret verdien litt */
+  position: fixed; 
   top: 0; /* AI har endret verdien litt */
   left: 0; /* AI har endret verdien litt */
   z-index: 1; /* AI har endret verdien litt */
 }
 a{
     color: #ffffff;
-    font-size: 20px;
-    
+    font-size: 20px;  
+}
+.Om_meg{
+display: flex;
+}
+main{
+    display: grid;
+    grid: 150px / auto auto auto;
+    border: 4px solid #000000;
 }
