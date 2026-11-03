@@ -4,17 +4,36 @@ body{
    border: 1px solid black;
    align-items: center;
    justify-items: center;
-}
-.grid-container{
-    display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 200px 200px;
-    gap: 1em;
-    grid-template-areas:
-    "box1 box3 box3 box4"
-    "box1 box2 box5 box5";
+   min-height: 1000px;
 }
 .box{
-    background-color: #0040ff;
+  background-color: #0004ff;
 }
-@media(max-width: 56em){}
+.grid-container{
+ display: grid;
+grid-auto-columns: 200px;
+grid-auto-rows: 200px;
+ gap: 1em;
+ grid-template-areas:
+  "box-1 box-2 box-3 box-4"
+  "box-1 box-5 box-5 box-6";
+}
+@media(max-width: 56em){
+  .grid-container{
+    gap: 1em;
+    grid-template-areas:
+      "box-1 box-2 box-2"
+      "box-3 box-6 box-4"
+      "box-5 box-5 box-4";
+  }
+}
+@media(max-width: 42em){
+  .grid-container{
+    gap: 1em;
+    grid-template-areas:
+      "box-1 box-2 box-2"
+      "box-3 box-2 box-2"
+      "box-5 box-5 box-4"
+      "box-5 box-5 box-6";
+  }
+}
