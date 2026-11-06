@@ -9,18 +9,18 @@ body{
 
 }
 header{
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-    background-color: #acacac;
-    max-height: 200px;
-    width: 100%; /* AI har endret verdien litt */
-    box-sizing: border-box; /* AI har endret verdien litt */
-    padding-top: 64px; /* AI har endret verdien litt */
-    text-align: center;
-    border: solid 5px black;
-    flex-wrap: wrap;
-    flex-flow: column;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  background-color: #acacac;
+  max-height: 200px;
+  width: 100%; /* AI har endret verdien litt */
+  box-sizing: border-box; /* AI har endret verdien litt */
+  padding-top: 64px; /* AI har endret verdien litt */
+  text-align: center;
+  border: solid 5px black;
+  flex-wrap: wrap;
+  flex-flow: column;
     
 }
 nav{
@@ -46,15 +46,17 @@ a{
   margin-top: 40px;
   margin-left: 40px;
   margin-right: 40px;
-  height: 1000px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr ;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-rows: 500px 500px;
+  
   gap: 40px;
 }
 .item {
+  display: flex;
   background-color: #f2f2f2;
   border: 4px solid #000000;
   text-align: center;
+  height: auto;
 }
 
