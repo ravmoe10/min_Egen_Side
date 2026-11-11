@@ -2,9 +2,9 @@ html{
   scroll-behavior:smooth
 }
 body{
-height: 1800px;
+
 margin: 0;
-background-image: url("../Fotos/Black_hole.png");
+background-image: url("../Fotos/images.jpg");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 background-attachment: fixed;
@@ -13,7 +13,7 @@ header{
   display: flex; 
   align-items: center; 
   justify-content: center;
-  background-color: #acacac;
+  background-color: #acacac82;
   max-height: 200px;
   width: 100%; /* AI har endret verdien litt */
   box-sizing: border-box; /* AI har endret verdien litt */
@@ -40,8 +40,17 @@ nav{
   z-index: 1; /* AI har endret verdien litt */
 }
 a{
-    color: #ffffff;
-    font-size: 20px;  
+    color: #f6f6f6;
+    font-size: 20px; 
+    text-decoration: none; 
+}
+a:hover{
+ color: #cecece;
+ font-size: 20px;
+ text-decoration:underline; 
+}
+a:active{
+color: #ffff;
 }
 .grid-container {
   justify-content: center;
@@ -80,9 +89,9 @@ text-align: center;
   font-size: 25px;
 }
 .item {
-  background-color: #f2f2f2;
+  background-color: #f2f2f298;
   border: 4px solid #000000;
-  border-radius: 10px;
+  border-radius: 15px;
   justify-content: top;
   align-items: center;
   
