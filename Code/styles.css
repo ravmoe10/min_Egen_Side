@@ -55,7 +55,7 @@ color: #ffff;
   justify-content: center;
 display: grid;
 grid-template-columns: 475px 475px;
-grid-template-rows: 150px 500px 500px;
+grid-template-rows: 170px 500px 500px;
 gap: 1em;
 margin-top: 40px;
 grid-template-areas:
