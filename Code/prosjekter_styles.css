@@ -5,7 +5,7 @@ body{
   align-items: center;
   justify-items: center;
   margin:0;
-  background-image: url(../Fotos/Black_hole.png);
+  background-image: url(../Fotos/bakground.jpg);
   background-attachment: fixed;
   background-repeat: none;
   background-size: 100% 100%;
@@ -54,20 +54,28 @@ nav{
   border-radius: 15px;
   justify-content: top;
   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .grid-container{
   display: grid;
-  grid-template-columns: 250px 275px 250px;
+  grid-template-columns: 230px 270px 250px;
   grid-auto-rows: 300px;
   margin-top: 40px;
   gap: 1em;
   grid-template-areas:
-   "box-1 box-2 box-2"
-   "box-1 box-2 box-2"
-   "box-3 box-3 box-4"
-   "box-3 box-3 box-4"
-   "box-5 box-6 box-6"
-   "box-5 box-6 box-6";
+   "box11 box11 box11"
+   "box1 box2 box2"
+   "box1 box2 box2"
+   "box3 box3 box4"
+   "box3 box3 box4"
+   "box5 box6 box6"
+   "box5 box6 box6"
+   "box12 box12 box12"
+   "box7 box7 box8"
+   "box7 box7 box8"
+   "box9 box10 box10"
+   "box9 box10 box10"
 }
 a{
   color: #f6f6f6;
@@ -91,4 +99,9 @@ text-align: center;
 p{
   justify-content: center;
   font-size: 25px;
+}
+.tekst_skile{
+  max-height: 100px;
+  text-align: center;
+  align-self: flex-end;
 }
