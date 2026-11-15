@@ -68,8 +68,9 @@ grid-template-areas:
      gap: 1em;
      margin-top: 40px;
      grid-template-columns: 400px;
-     grid-template-rows: 450px 450px 450px 450px;
+     grid-template-rows: 190px 450px 450px 450px;
      grid-template-areas:
+      "box5"
       "box-1"
       "box-2"
       "box-4"
